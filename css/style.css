@@ -1,0 +1,583 @@
+/* .text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    } */
+
+
+
+
+
+    
+
+    
+
+    /* .main-text{
+        margin-bottom: 30px;
+        
+    }
+
+    .search-bar  {
+        display: flex;
+        align-items: center;
+        width: 460px;
+        max-width: 800px;
+        height: 60px;
+        display: inline-block;
+        border-radius: 30px;
+        overflow: hidden;
+      }
+
+      .search-button{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 385px;
+        width: 370px;
+        height: 70px;
+        padding: 0 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+
+      }
+      
+      .search-input {
+        width: 80px;
+        height: 100%;
+        padding: 0 20px;
+        border: none;
+        outline: none;
+      }
+      
+      
+      
+      .search-button:hover {
+        background-color: #0062cc;
+      } */
+
+
+
+     
+      
+      .container-row, .gallery-row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 20px 75px;
+        align-items: center;
+
+      }
+      
+      .container-name, .gallery-heading{
+        font-weight: 700;
+        font-size: 29px;
+      }
+
+      .gallery-heading{
+        font-weight: 700;
+        font-size: 29px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+      }
+
+      .event-grid, .places-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 100px;
+        
+      }
+
+      .place-container {
+        padding-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      .ongoing-event-heading{
+        font-weight: 700;
+        font-size: 35px;
+        text-align: left;
+        padding: 110px;
+        padding-left: 90px;
+        color: #ff9150;
+        
+      }
+
+      .ongoing-event-end{
+        font-weight: 700;
+        font-size: 29px;
+        text-align: left;
+        padding: 110px;
+        padding-left: 90px;
+        color: #ff9150;
+      }
+
+
+      .event-boxs ,.places-boxs {
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        color: #233543;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 10px;
+        position: relative;
+        padding: 10px 10px;
+       
+    }
+
+    .thumbnail{
+        width: 100%;
+        border-radius: 15px;
+        
+        
+        
+    }
+
+    .event-name-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .event-name{
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 30px;
+        
+    }
+
+    .event-rating{
+        padding-right: 30px;
+        color: #ff9150;
+    }
+
+
+
+     .event-duration, .place-name{
+        font-size: 14px;
+        margin-bottom: 10px;
+        
+        padding-left: 30px;
+
+        
+    }
+
+    .place-name{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+  /* ----------------hero btn chatgpt----------- */
+
+  /* .container {
+
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  .image-column {
+    width: 450px;
+    height: 450px;
+    background: url("images/hero\ btn\ \(2\).png");
+    background-size: cover;
+  }
+  .content-column {
+    width: 50%;
+    padding: 20px;
+   
+  }
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon-box {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+   */
+
+                /* hero-btn-myversion */
+
+.hero-btn-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    
+    
+
+}
+
+.hero-btn-image-row{
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 110px;
+}
+
+.hero-btn-image{
+    height: 430px;
+    width: 430px;
+    background-size: cover;
+}
+
+.hero-btn-info-row{
+    display: grid;
+    grid-template-rows: 100px 100px 1fr;
+    
+    margin-right: 110px;
+    row-gap: 30px;
+    
+
+    
+}
+
+.hero-btn-title{
+    
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px;
+     
+    color: #1e1f1f;
+    
+}
+
+.hero-btn-subtitle{
+    font-size: 16px;
+    line-height: 29px;
+    color: #595959;
+    
+}
+
+
+.hero-btn-icon{
+    width: 350px;
+   
+}
+
+/* ---------------- popular places ---------- */
+
+/* ---------------Gallery---------------- */
+   
+/* .container-of-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    margin: 20px 75px;
+    
+  }
+  
+  .container-of-gallery .heading-of-gallery{
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .container-of-gallery .heading-of-gallery h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+  }
+  
+  
+  .container-of-gallery .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .container-of-gallery .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+  
+  .container-of-gallery .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 15px;
+
+  }
+  
+  .gallery7{
+    height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+  }
+
+  .gallery12{
+    height: 240px;
+    object-fit: cover;
+    
+  }
+
+  
+  
+  
+  
+  @media only screen and (max-width: 769px){
+      .container-of-gallery .box{
+     flex-direction: column;
+    }
+  
+  .container-of-gallery .box .dream{
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  }
+  
+  @media only screen and (max-width: 643px){
+  .container .heading{
+    width: 100%;
+  }
+  .container .heading h3{
+    font-size: 1em;
+  
+  }
+  
+  } */
+
+    /* -----------------countdown---------------- */
+
+  .countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.countdown-box{
+    border: solid 1.5px #E6E7E9;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+    
+}
+
+.countdown-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    line-height: 50px;
+    
+    
+    
+}
+
+.countdown-content h1{
+    color: #ff9150;
+}
+
+.countdown-content p{
+    color: #595959;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------Gallery------------------------------ */
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 60px;
+  
+}
+
+.gallery .gallery-col{
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  
+
+}
+
+.gallery .gallery-col img{
+  width: 100%;
+  margin-bottom: 28px;
+  border-radius: 20px;
+  
+
+}
+
+
+
+
+/* 
+-------------------newsletter----------------- */
+
+
+
+
+.newsletter{
+  position: absolute;
+  
+  left: 30%;
+}
+
+.newsletter-submit{
+  flex:1;
+  
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.newsletter-placeholder{
+  border: none;
+ padding-left: 20px;
+  font-size: 12px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 1px 40px rgba(33, 66, 172, 0.2);
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  height: 45px;
+  z-index: 1;
+  outline: none;
+  }
+
+.newsletter-button{
+  height: 47px;
+  width: 66px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 60px;
+  background-color: #1caefe;
+  color: white;
+  font-size: 12px;
+  border-style: none;
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.2);
+  
+  margin-right: 8px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+  cursor: pointer;
+  
+
+  }
+
+  .newsletter-header{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      margin-left: -50px;
+      font-family: myFont;
+  }
+
+
+
+/* 
+---------------------footer-------------- */
+
+.footer{
+  
+  margin-top: 300px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+
+}
+
+.footer-logo{
+  width: 100px;
+}
+
+.footer-text{
+  width: 170px;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+
+.quicklink-1, .quicklink-2, .quicklink-3{
+  list-style: none;
+  padding: 0;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.fa {
+  padding: 2px;
+
+  font-size: 12px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.first-col p{
+  margin-bottom: 10px;
+}
+
+
+
+
+.second-col h3, .third-col h3, .forth-col h3,  .first-col img{
+  margin-bottom: 20px;
+}
+
+.forth-col ul{
+  margin-bottom: 10px;
+}
+  
